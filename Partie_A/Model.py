@@ -9,6 +9,7 @@ df = pd.read_csv('iris.csv')
 X = df.drop('variety', axis=1)
 y = df['variety']
 
+# Vous pouvez changer le "test_size" par 0.9, pour éviter d'avoir 1 partout
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 model = LogisticRegression()
