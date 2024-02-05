@@ -5,7 +5,7 @@ Created on Mon Feb  5 18:07:46 2024
 @author: Admin
 """
 
-# we are oing to do a knn predictive modele 
+# we are going to do a knn predictive modele 
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
