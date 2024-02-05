@@ -1,10 +1,10 @@
-# Iris Prediction API
+#Iris Prediction API
 
 This Flask application provides a simple API for predicting Iris flower varieties based on input features.
 
-## Getting Started
+##Getting Started
 
-### Prerequisites
+###Prerequisites
 
 Make sure you have Python and pip installed. You can install the required dependencies using:
 
