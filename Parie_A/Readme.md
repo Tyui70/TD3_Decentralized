@@ -27,15 +27,19 @@ For example:
 curl "http://127.0.0.1:5000/predict?sepal.length=5.1&sepal.width=3.5&petal.length=1.4&petal.width=0.2"
 ```
 ## Example Response
-
+```
 {
   "class_probabilities": [
+  
     {"class": "Setosa", "probability": 0.9},
+    
     {"class": "Versicolor", "probability": 0.05},
+    
     {"class": "Virginica", "probability": 0.05}
+    
   ]
 }
-
+```
 
 
 
